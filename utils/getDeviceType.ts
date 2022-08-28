@@ -1,5 +1,6 @@
 import UAParser from "ua-parser-js";
 
+// must receive ctx from Next.js ssr
 export default async function getDeviceType(ctx) {
   let userAgent;
 
